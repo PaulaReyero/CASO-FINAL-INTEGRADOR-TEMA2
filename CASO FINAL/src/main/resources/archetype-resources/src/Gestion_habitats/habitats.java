@@ -8,7 +8,7 @@ public class habitats{
 
     public habitats(float temperatura, float humedad, booleann limpieza){
         this.temperatura = temperatura;
-        this.hhumedad = humedad;
+        this.humedad = humedad;
         this.limpieza = limpieza;
     }
     @Override

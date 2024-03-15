@@ -1,7 +1,9 @@
 package Gestion_habitats;
 
 public class aviario extends habitats{
+
     boolean puede_volar;
+    
     public aviario(float temperatura, float humedad, boolean limpieza, boolean puede_volar){
         super(temperatura, limpieza, humedad);
         this.puede_volar = puede_volar;

@@ -4,13 +4,14 @@ public class terrestres extends habitats{
 
     boolean puede_caminar;
 
-    public terresres(float temperatura, float limpieza, boolean humedad){
+    public terresres(float temperatura, boolean limpieza, boolean humedad, boolean puede_caminar){
         super(temperatura, limpieza, humedad);
+        this.puede_caminar = puede_caminar;
 
+    }
     @Override
     public String toString() {
         return "terrestres []";
-    }
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
